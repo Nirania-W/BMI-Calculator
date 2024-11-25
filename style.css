@@ -1,0 +1,58 @@
+body {
+    font-family: Mitr;
+    color: rgb(221, 7, 103);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;  /*เพื่อให้ body มีความสูงเต็มหน้าจอ*/
+    background: url('https://i.pinimg.com/736x/23/39/1a/23391ae166d0b2a8175920e139a067b2.jpg');
+    /*เพื่อจัดการพื้นหลังให้สวยงาม*/
+    background-size: cover;
+    background-position: center;
+}
+h2 {
+    width: 50%;
+    padding: 10px;
+    border-radius: 50px;
+    color: rgb(255, 239, 249);
+    background-color: rgb(221, 7, 103);
+    margin: 0 auto 20px; /* เพิ่ม margin ด้านล่างและจัดให้อยู่ตรงกลาง */
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+p {
+    text-align: center;
+    margin: 0 auto 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    background-color: rgb(255, 239, 249);
+    width: 50%;
+}
+input {
+    color: rgb(255, 30, 169);
+    background-color: rgb(255, 239, 249);
+    border-radius: 20px;
+    border-color: rgb(221, 7, 103);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container {
+    background-color: rgba(255, 170, 220, 0.764);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 600px;
+    transition: transform 0.3s;
+    max-width: 90%; /*ปรับขนาดได้บนหน้าจอขนาดเล็ก*/
+    margin: 20px; /*เพื่อให้มีระยะห่างจากขอบหน้าจอเมื่อหน้าจอแคบ*/
+}
+.container:hover {
+    transform: scale(1.05);
+}
